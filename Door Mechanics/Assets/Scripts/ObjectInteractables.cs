@@ -17,6 +17,12 @@ public class ObjectInteractables : MonoBehaviour
     }
 
     public void Interact(){
-        Debug.Log("Interact!");
+        if(gameObject.tag == "Right Door"){
+            Debug.Log("Correct!");
+        }
+
+        if(gameObject.tag == "Wrong Door"){
+            Debug.Log("Wrong!");
+        }
     }
 }

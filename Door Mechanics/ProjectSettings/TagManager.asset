@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Door
+  - Right Door
+  - Wrong Door
   layers:
   - Default
   - TransparentFX

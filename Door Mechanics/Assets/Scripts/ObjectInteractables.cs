@@ -4,18 +4,6 @@ using UnityEngine;
 
 public class ObjectInteractables : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void Interact(){
         if(gameObject.tag == "Right Door"){
             Debug.Log("Correct!");

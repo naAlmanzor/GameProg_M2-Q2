@@ -9,9 +9,12 @@ public class CountdownTImerUI : MonoBehaviour
     float startingTime = 60f;
 
     [SerializeField] TextMeshProUGUI countDownText;
+    [SerializeField] private GameObject screenUI;
+    [SerializeField] private TextMeshProUGUI textDisplay;
     // Start is called before the first frame update
     void Start()
     {
+        screenUI.SetActive(false);
         currentTime = startingTime;
     }
 
@@ -27,7 +30,8 @@ public class CountdownTImerUI : MonoBehaviour
 
         if(currentTime<=0){
             currentTime = 0;
-            Debug.Log("Time's Up!");
+            textDisplay.text = "You took to long !";
+            screenUI.SetActive(true);
         }
     }
 }

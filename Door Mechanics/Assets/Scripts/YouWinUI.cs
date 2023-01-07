@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class GameOverUI : MonoBehaviour{
-    void Update(){
-        if(Input.GetKeyDown(KeyCode.R)){
+public class YouWinUI : MonoBehaviour
+{
+   void Update(){
+        if(Input.GetKeyDown(KeyCode.Return)){
             Time.timeScale = 1;
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }

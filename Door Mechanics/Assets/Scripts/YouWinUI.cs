@@ -6,7 +6,7 @@ using TMPro;
 
 public class YouWinUI : MonoBehaviour
 {
-    [SerializeField] private int sceneSelection;
+    [SerializeField] private string sceneSelection;
     [SerializeField] private TextMeshProUGUI textDisplay;
     [SerializeField] private TextMeshProUGUI prompt;
 

@@ -1996,7 +1996,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8192515329206029250, guid: e14ba4ad37de9694d88cbc13e4772128, type: 3}
       propertyPath: sceneSelection
-      value: 1
+      value: Level 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e14ba4ad37de9694d88cbc13e4772128, type: 3}

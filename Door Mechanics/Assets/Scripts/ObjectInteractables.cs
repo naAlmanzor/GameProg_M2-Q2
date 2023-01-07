@@ -8,6 +8,9 @@ public class ObjectInteractables : MonoBehaviour
     [SerializeField] private GameObject screenUI;
     [SerializeField] private TextMeshProUGUI textDisplay;
    
+    [Header("Custom Reason")]
+    public string txt; 
+   
     void Start(){
         screenUI.SetActive(false);
     }
@@ -15,7 +18,7 @@ public class ObjectInteractables : MonoBehaviour
        
         if(gameObject.tag == "Right Door"){
             screenUI.SetActive(true);
-            textDisplay.text = "Gen V had 156 new Pokemon. \nIn comparison, the original game only had 151";
+            textDisplay.text = txt;
             Time.timeScale = 0f;
         }
 

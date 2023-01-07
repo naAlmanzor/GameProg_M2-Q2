@@ -316,18 +316,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7841394587693374172, guid: e14ba4ad37de9694d88cbc13e4772128, type: 3}
   m_PrefabInstance: {fileID: 7841394587233628412}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &479816225
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 479816224}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4750f1495f6bd154faf14d325f70ec4a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &795877324 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4091199435787055755, guid: 8a4455ccd32110441ac22af672599bb1, type: 3}
@@ -1492,6 +1480,10 @@ PrefabInstance:
       propertyPath: prompt
       value: 
       objectReference: {fileID: 7841394587233628413}
+    - target: {fileID: 8192515329206029250, guid: e14ba4ad37de9694d88cbc13e4772128, type: 3}
+      propertyPath: reason
+      value: Charizard is ONLY a Dragon Type if it Mega Evlves
+      objectReference: {fileID: 0}
     - target: {fileID: 8192515329206029250, guid: e14ba4ad37de9694d88cbc13e4772128, type: 3}
       propertyPath: sceneSelection
       value: 0

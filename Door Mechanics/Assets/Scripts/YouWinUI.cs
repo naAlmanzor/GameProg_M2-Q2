@@ -7,10 +7,15 @@ using TMPro;
 public class YouWinUI : MonoBehaviour
 {
     [SerializeField] private int sceneSelection;
+    [SerializeField] private TextMeshProUGUI textDisplay;
     [SerializeField] private TextMeshProUGUI prompt;
+
+    [Header("Custom Reason")]
+    public string reason; 
 
     void Start(){
         Scene scene = SceneManager.GetActiveScene();
+        textDisplay.text = reason;
         
         if(scene.name == "Level 3"){
             prompt.text = "Press 'Enter' to Restart Game";

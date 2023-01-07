@@ -403,18 +403,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7841394587693374172, guid: e14ba4ad37de9694d88cbc13e4772128, type: 3}
   m_PrefabInstance: {fileID: 7841394587233628412}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &479816225
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 479816224}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4750f1495f6bd154faf14d325f70ec4a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &789652855
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -476,7 +464,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7603023026651649844, guid: a9dc3f59ccf3ac44da88d115a880670c, type: 3}
       propertyPath: txt
-      value: Ash's last Pokemon in Master's 8 was Pikachu. It defeated Leon's Charizard
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7603023026651649844, guid: a9dc3f59ccf3ac44da88d115a880670c, type: 3}
       propertyPath: scene
@@ -2002,6 +1990,10 @@ PrefabInstance:
       propertyPath: prompt
       value: 
       objectReference: {fileID: 7841394587233628413}
+    - target: {fileID: 8192515329206029250, guid: e14ba4ad37de9694d88cbc13e4772128, type: 3}
+      propertyPath: reason
+      value: Ash's last Pokemon in Master's 8 was Pikachu. It defeated Leon's Charizard
+      objectReference: {fileID: 0}
     - target: {fileID: 8192515329206029250, guid: e14ba4ad37de9694d88cbc13e4772128, type: 3}
       propertyPath: sceneSelection
       value: 1

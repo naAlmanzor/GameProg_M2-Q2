@@ -30,7 +30,7 @@ public class CountdownTImerUI : MonoBehaviour
 
         if(currentTime<=0){
             currentTime = 0;
-            textDisplay.text = "You took to long !";
+            textDisplay.text = "You took too long !";
             screenUI.SetActive(true);
         }
     }

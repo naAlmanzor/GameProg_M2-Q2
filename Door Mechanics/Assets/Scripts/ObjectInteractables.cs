@@ -6,10 +6,7 @@ using TMPro;
 public class ObjectInteractables : MonoBehaviour
 {
     [SerializeField] private GameObject screenUI;
-    [SerializeField] private TextMeshProUGUI textDisplay;
-   
-    [Header("Custom Reason")]
-    public string txt; 
+    // [SerializeField] private TextMeshProUGUI textDisplay;
    
     void Start(){
         screenUI.SetActive(false);
@@ -18,13 +15,11 @@ public class ObjectInteractables : MonoBehaviour
        
         if(gameObject.tag == "Right Door"){
             screenUI.SetActive(true);
-            textDisplay.text = txt;
             Time.timeScale = 0f;
         }
 
         if(gameObject.tag == "Wrong Door"){
             screenUI.SetActive(true);
-            textDisplay.text = "Wrong Answer !";
             Time.timeScale = 0f;
         }
     }
